@@ -3,7 +3,7 @@ const txt = document.querySelector('#text-flag');
 
 const actionBtn = ()=>{
     //Flag para ganar un punto en el parcial
-    alert('Vale por un punto extra en el parcial');
+    txt.innerHTML = 'Aquí no hay flagg'
 }
 
 btn.addEventListener('click' , actionBtn);
